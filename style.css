@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: monospace, sans-serif;
+	font-size: 18px;
+	position: relative;
+}
+
+html,
+body {
+	min-height: 100%;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #000;
+}
+
+p {
+	color: #000;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact {
+	background-color: darkgrey;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.image-wrapper {
+	margin-right: 1rem;
+}
+
+.intro-image {
+	border-radius: 50%;
+	border: 5px solid #fff;
+	height: 15rem;
+	max-height: 100%;
+}
+
+.intro-details {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.link {
+	text-align: center;
+}
+
+.intro-wrapper {
+	color: #000;
+}
+
+.intro-aboutme {
+	text-align: justify;
+	margin-left: 1rem;
+	padding-left: 1rem;
+	border-left: 2px solid;
+}
+
+.intro-content {
+	display: flex;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 10rem;
+}
+
+.intro-background {
+	z-index: -1;
+	background: url('back.jpg');
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+}
+
+.skills {
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	background-color: #eee;
+}
+
+.skills-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	width: 85%;
+}
+
+.skill-card {
+	display: inline-block;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 50px;
+	padding-bottom: 10px;
+	transition: 0.3s;
+	width: 200px;
+	text-align: justify;
+	background-color: #eee;
+}
+
+.skill-card img {
+	min-height: 100px;
+	width: 100%;
+	text-align: justify;
+	border-radius: 5px 5px 0 0;
+}
+
+.skill-card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+h4 {
+	margin-bottom: 0;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.linkedin {
+	margin: 50px auto 50px auto;
+}
+.education {
+	background-color: #eee;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	margin-top: 10px;
+}
+.edu-wrapper {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	width: 85%;
+}
