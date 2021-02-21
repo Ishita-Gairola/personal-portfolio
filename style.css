@@ -69,6 +69,7 @@ p {
 	margin-left: 1rem;
 	padding-left: 1rem;
 	border-left: 2px solid;
+	padding-top: 50px;
 }
 
 .intro-content {
@@ -80,7 +81,7 @@ p {
 
 .intro-background {
 	z-index: -1;
-	background: url('back.jpg');
+	background: url('images/back.jpg');
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -149,4 +150,24 @@ h4 {
 	justify-content: space-evenly;
 	margin: 0 auto;
 	width: 85%;
+}
+.edu-card {
+	display: inline-block;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 50px;
+	padding-bottom: 10px;
+	transition: 0.3s;
+	text-align: justify;
+	background-color: #eee;
+}
+.edu-card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+.edu-card img {
+	border-radius: 5px 5px 0 0;
+	text-align: justify;
 }
