@@ -6,7 +6,6 @@
 body {
 	font-family: monospace, sans-serif;
 	font-size: 18px;
-	position: relative;
 }
 
 html,
@@ -25,11 +24,6 @@ p {
 	color: #000;
 	text-align: center;
 	padding-bottom: 10px;
-}
-
-.container {
-	display: flex;
-	flex-direction: column;
 }
 
 .contact {
@@ -70,6 +64,14 @@ p {
 	padding-left: 1rem;
 	border-left: 2px solid;
 	padding-top: 50px;
+}
+
+.intro-aboutme::first-letter {
+	color: #800880;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+	font-size: 300%;
 }
 
 .intro-content {
@@ -160,8 +162,9 @@ h4 {
 	margin-top: 50px;
 	padding-bottom: 10px;
 	transition: 0.3s;
-	text-align: justify;
+
 	background-color: #eee;
+	width: 300px;
 }
 .edu-card:hover {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -170,4 +173,5 @@ h4 {
 .edu-card img {
 	border-radius: 5px 5px 0 0;
 	text-align: justify;
+	padding-left: 50px;
 }
