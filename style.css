@@ -4,7 +4,8 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: monospace, sans-serif;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 }
 
@@ -13,18 +14,22 @@ body {
 	min-height: 100%;
 }
 
+.my-name {
+	font-size: 3rem;
+}
+
 h1 {
 	font-size: 40px;
 	text-align: center;
 	margin-bottom: 20px;
-	color: #000;
-	font-family: cursive, sans-serif;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 p {
-	color: #000;
 	text-align: center;
 	padding-bottom: 10px;
+	font-size: larger;
 }
 
 .contact {
@@ -42,6 +47,7 @@ p {
 	border-radius: 50%;
 	border: 5px solid #fff;
 	height: 15rem;
+
 	max-height: 100%;
 }
 
@@ -56,7 +62,7 @@ p {
 }
 
 .intro-wrapper {
-	color: #000;
+	color: #fff;
 }
 
 .intro-aboutme {
@@ -68,9 +74,7 @@ p {
 }
 
 .intro-aboutme::first-letter {
-	color: #800880;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-family: 'Roboto', sans-serif;
 
 	font-size: 300%;
 }
@@ -84,7 +88,7 @@ p {
 
 .intro-background {
 	z-index: -1;
-	background: url('images/back.jpg');
+	background: url('images/background.jpg');
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -93,7 +97,7 @@ p {
 
 .skills {
 	margin-top: 10px;
-	padding-top: 10px;
+	padding-top: 30px;
 	padding-bottom: 50px;
 	background-color: #eee;
 }
@@ -103,7 +107,7 @@ p {
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	margin: 0 auto;
-	width: 85%;
+	width: 60%;
 }
 
 .skill-card {
@@ -139,20 +143,25 @@ h4 {
 	margin-right: 10px;
 }
 
+.intro-linkedin {
+	color: #fff;
+}
+
 .linkedin {
 	margin: 50px auto 50px auto;
 }
 .education {
 	background-color: #eee;
 	padding-bottom: 30px;
-	padding-top: 20px;
+	padding-top: 30px;
 	margin-top: 10px;
 }
 .edu-wrapper {
 	display: flex;
 	justify-content: space-evenly;
 	margin: 0 auto;
-	width: 85%;
+	width: 60%;
+	margin-bottom: 20px;
 }
 .edu-card {
 	display: inline-block;
@@ -178,6 +187,22 @@ h4 {
 }
 
 .contact {
+	padding-top: 30px;
 	padding-bottom: 30px;
 	background-color: #eee;
+}
+
+.contact-wrapper {
+	text-align: center;
+}
+
+.ssn {
+	display: flex;
+	justify-content: center;
+}
+
+.contact-link {
+	margin: 0 15px;
+	color: blue;
+	margin-top: 10px;
 }

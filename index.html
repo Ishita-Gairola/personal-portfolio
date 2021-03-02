@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Ishita Gairola's portfolio</title>
+		<title>Ishita Gairola</title>
 		<link rel="stylesheet" type="text/css" href="style.css" />
 		<link rel="stylesheet" type="text/css" href="/css/all.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<div class="intro-wrapper">
 			<div class="intro-background"></div>
 
 			<div class="intro-details">
-				<h1>Ishita Gairola</h1>
+				<h1 class="my-name">Ishita Gairola</h1>
 				<div class="intro-content">
 					<div class="image-wrapper">
 						<img
-							src="images/Profile%20pic.jpg"
+							src="images/mypic.jpeg"
 							alt="My picture"
 							class="intro-image"
 						/>
@@ -32,9 +42,10 @@
 					<a
 						href="https://www.linkedin.com/in/ishita-gairola/ "
 						target="_blank"
+						class="intro-linkedin"
 					>
-						My Linkedin profile</a
-					>
+						<i class="fab fa-2x fa-linkedin"></i
+					></a>
 					<p class="main-text">
 						<strong
 							><br />
@@ -50,27 +61,58 @@
 			<h1>Skills</h1>
 			<div class="skills-wrapper">
 				<div class="skill-card">
-					<img src="images/java-logo.png" alt="Java" height="200" />
+					<a
+						href="https://en.wikipedia.org/wiki/Java_(programming_language)"
+						target="_blank"
+					>
+						<img
+							src="images/java-logo.png"
+							alt="Java"
+							height="200"
+						/>
+					</a>
+
 					<h4>Java</h4>
 				</div>
 				<div class="skill-card">
-					<img src="images/html5.png" alt="HTML" height="200" />
+					<a
+						href="https://en.wikipedia.org/wiki/HTML5"
+						target="_blank"
+					>
+						<img src="images/html5.png" alt="HTML" height="200" />
+					</a>
+
 					<h4>HTML</h4>
 				</div>
 				<div class="skill-card">
-					<img src="images/csslogo.webp" alt="CSS" height="200" />
+					<a href="https://en.wikipedia.org/wiki/CSS" target="_blank">
+						<img src="images/csslogo.webp" alt="CSS" height="200" />
+					</a>
+
 					<h4>CSS</h4>
 				</div>
 				<div class="skill-card">
-					<img
-						src="images/flutter.png"
-						alt="flutterlogo"
-						height="200"
-					/>
+					<a
+						href="https://en.wikipedia.org/wiki/Flutter_(software)"
+						target="_blank"
+					>
+						<img
+							src="images/flutter.png"
+							alt="flutterlogo"
+							height="200"
+						/>
+					</a>
+
 					<h4>Flutter</h4>
 				</div>
 				<div class="skill-card">
-					<img src="images/sql.png" alt="sql" height="200" />
+					<a
+						href="https://en.wikipedia.org/wiki/MySQL"
+						target="_blank"
+					>
+						<img src="images/sql.png" alt="sql" height="200" />
+					</a>
+
 					<h4>MySQL</h4>
 				</div>
 			</div>
@@ -80,54 +122,55 @@
 			<h1>Education</h1>
 			<div class="edu-wrapper">
 				<div class="edu-card">
-					<img
-						src="images/SJA_Monogram.png"
-						alt="SJA_Monogram"
-						height="200"
-					/>
+					<a href="https://stjosephacademy.in/" target="_blank">
+						<img
+							src="images/SJA_Monogram.png"
+							alt="SJA_Monogram"
+							height="200"
+						/>
+					</a>
+
 					<h4>St. Joseph's Academy, Dehradun <br />(ISC)</h4>
 				</div>
 				<div class="edu-card">
-					<img src="images/Srmseal.png" alt="SRMseal" height="200" />
+					<a href="https://www.srmist.edu.in/" target="_blank">
+						<img
+							src="images/Srmseal.png"
+							alt="SRMseal"
+							height="200"
+						/>
+					</a>
+
 					<h4>
 						SRM Institute of Science and Technology,
-						Kattankulathur<br />(B.Tech CSE)<br />CGPA: 9.23
+						Kattankulathur<br />(B.Tech CSE)<br />CGPA: 9.3
 					</h4>
 				</div>
 			</div>
 		</div>
 
 		<footer class="contact">
-			<h1>Say Hello!</h1>
+			<h1>Contact Me</h1>
 			<div class="contact-wrapper">
 				<div class="contact-card">
 					<p><strong>Email:</strong> ishitagairola7@gmail.com</p>
 				</div>
 				<div class="ssn">
-					<div class="net">
-						<a
-							href="https://www.linkedin.com/in/ishita-gairola/"
-							target="_blank"
-						>
-							<i
-								class="fab fa-2x fa-linkedin"
-								aria-hidden="true"
-							></i>
-							Hire me!</a
-						>
-					</div>
-					<div class="net">
-						<a
-							href="https://github.com/Ishita-Gairola"
-							target="_blank"
-						>
-							<i
-								class="fab fa-2x fa-github"
-								aria-hidden="true"
-							></i>
-							Github
-						</a>
-					</div>
+					<a
+						href="https://www.linkedin.com/in/ishita-gairola/"
+						target="_blank"
+						class="contact-link"
+					>
+						<i class="fab fa-3x fa-linkedin"></i>
+					</a>
+
+					<a
+						href="https://github.com/Ishita-Gairola"
+						target="_blank"
+						class="contact-link"
+					>
+						<i class="fab fa-3x fa-github"></i>
+					</a>
 				</div>
 			</div>
 		</footer>
