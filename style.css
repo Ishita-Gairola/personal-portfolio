@@ -106,17 +106,17 @@ body {
 	min-height: 100%;
 }
 
-.my-name {
-	font-size: 3rem;
-	padding-left: 30px;
-}
-
 h1 {
 	font-size: 40px;
 	text-align: center;
 	margin-bottom: 20px;
 	font-family: 'Playfair Display', serif;
 	font-family: 'Roboto', sans-serif;
+}
+.my-name {
+	font-size: 6rem;
+	padding-left: 30px;
+	font-family: 'Bebas Neue', 'Playfair Display';
 }
 
 p {
@@ -164,12 +164,13 @@ p {
 	padding-left: 1rem;
 	border-left: 2px solid;
 	padding-top: 50px;
+	font-weight: bolder;
 }
 
 .intro-aboutme::first-letter {
-	font-family: stylish, sans-serif;
+	font-family: 'Roboto', sans-serif;
 
-	font-size: 200%;
+	font-size: 300%;
 }
 
 .intro-content {
@@ -181,7 +182,7 @@ p {
 
 .intro-background {
 	z-index: -1;
-	background: url('images/background.jpg');
+	background: url('images/code.jpg');
 	background-size: cover;
 	height: 100%;
 	width: 100%;
