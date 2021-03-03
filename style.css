@@ -3,6 +3,98 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+@font-face {
+	font-family: kanji;
+	src: url(fonts/almost-japanese-comic/Almost\ Japanese\ Comic.ttf);
+}
+
+@font-face {
+	font-family: french;
+	src: url(fonts/remachine-script/RemachineScript_Personal_Use.ttf);
+}
+
+@font-face {
+	font-family: stylish;
+	src: url(fonts/great-vibes/GreatVibes-Regular.ttf);
+}
+.intro-heading-wrapper {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	max-width: 100%;
+}
+.intro-heading {
+	font-family: 'Playfair Display';
+	font-weight: bold;
+	font-size: 5rem;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	overflow: hidden;
+	animation: animateHeading 11s linear infinite 1s;
+	/*text-transform: uppercase;*/
+}
+.intro-heading-wrapper .intro-heading:nth-child(1) {
+	-webkit-animation-delay: 4s;
+	-ms-animation-delay: 4s;
+	animation-delay: 4s;
+}
+.intro-heading-wrapper .intro-heading:nth-child(2) {
+	-webkit-animation-delay: 6s;
+	-ms-animation-delay: 6s;
+	animation-delay: 6s;
+	font-family: kanji;
+}
+
+.intro-heading-wrapper .intro-heading:nth-child(3) {
+	-webkit-animation-delay: 8s;
+	-ms-animation-delay: 8s;
+	animation-delay: 8s;
+	font-family: french;
+}
+
+.intro-heading-wrapper .intro-heading:nth-child(4) {
+	-webkit-animation-delay: 10s;
+	-ms-animation-delay: 10s;
+	animation-delay: 10s;
+}
+.intro-heading-wrapper .intro-heading:nth-child(5) {
+	-webkit-animation-delay: 12s;
+	-ms-animation-delay: 12s;
+	animation-delay: 12s;
+	font-family: stylish;
+}
+
+@-webkit-keyframes animateHeading {
+	0% {
+		opacity: 0;
+	}
+	2% {
+		opacity: 0;
+		-webkit-transform: translateY(-30px);
+	}
+	5% {
+		opacity: 1;
+		-webkit-transform: translateY(0px);
+	}
+	17% {
+		opacity: 1;
+		-webkit-transform: translateY(0px);
+	}
+	20% {
+		opacity: 0;
+		-webkit-transform: translateY(30px);
+	}
+	80% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
 body {
 	font-family: 'Playfair Display', serif;
 	font-family: 'Roboto', sans-serif;
@@ -16,6 +108,7 @@ body {
 
 .my-name {
 	font-size: 3rem;
+	padding-left: 30px;
 }
 
 h1 {
@@ -74,9 +167,9 @@ p {
 }
 
 .intro-aboutme::first-letter {
-	font-family: 'Roboto', sans-serif;
+	font-family: stylish, sans-serif;
 
-	font-size: 300%;
+	font-size: 200%;
 }
 
 .intro-content {
